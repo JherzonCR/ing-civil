@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feliz Día de la Mujer — Isaura 💜</title>
+  <meta name="description"
+    content="Un presente especial en el Día Internacional de la Mujer para Isaura, ingeniera civil extraordinaria." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ===== PARTÍCULAS DE FONDO ===== -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- ===== PÉTALOS FLOTANTES ===== -->
+  <div class="petals-container" id="petals"></div>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-content">
+      <div class="date-badge">
+        <span class="date-icon">🌸</span>
+        <span>8 de Marzo, 2026</span>
+      </div>
+      <h1 class="hero-title">
+        <span class="title-line title-line-1">Feliz Día</span>
+        <span class="title-line title-line-2">de la</span>
+        <span class="title-line title-line-3 gradient-text">Mujer</span>
+      </h1>
+      <div class="hero-divider">
+        <span class="divider-line"></span>
+        <span class="divider-icon">♦</span>
+        <span class="divider-line"></span>
+      </div>
+      <p class="hero-name">Isaura Choqquemamani</p>
+      <p class="hero-subtitle">Ingeniera Civil · Soñadora · Mujer Extraordinaria</p>
+      <a href="#mensaje" class="hero-cta">
+        <span>Ver tu mensaje</span>
+        <svg class="cta-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+        </svg>
+      </a>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION: QUIEN ERES ===== -->
+  <section class="quienes section" id="quienes">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">✨ Tu historia</span>
+        <h2 class="section-title">Una mujer que construye <span class="gradient-text">sueños</span></h2>
+      </div>
+      <div class="profile-grid">
+        <div class="profile-photo-side" data-aos="fade-right">
+          <div class="photo-frame">
+            <div class="photo-ring ring-1"></div>
+            <div class="photo-ring ring-2"></div>
+            <div class="photo-ring ring-3"></div>
+            <div class="profile-image-wrapper">
+              <img src="foto_perfil_crop.jpg" alt="Isaura" class="profile-img" id="profileImg"
+                onerror="this.style.display='none'; document.getElementById('profileInitials').style.display='flex';" />
+              <div class="profile-initials" id="profileInitials">I</div>
+            </div>
+            <div class="photo-badge">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14l-5-5 1.41-1.41L12 14.17l7.59-7.59L21 8l-9 9z" />
+              </svg>
+              Ing. Civil
+            </div>
+          </div>
+        </div>
+        <div class="profile-info-side" data-aos="fade-left">
+          <div class="info-card">
+            <div class="info-icon">🏛️</div>
+            <div>
+              <h3>UPeU Campus Juliaca</h3>
+              <p>Ingeniería Civil · Graduada con dedicación y esfuerzo</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">📍</div>
+            <div>
+              <h3>Juliaca, Puno</h3>
+              <p>Originaria de Acomayo, Cusco — llevando lo mejor de los Andes</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">⭐</div>
+            <div>
+              <h3>Digital Creator</h3>
+              <p>Comparte su pasión, su voz y su esencia con el mundo</p>
+            </div>
+          </div>
+          <blockquote class="profile-quote">
+            "Nose cuánto tardaré en alcanzar mis sueños, pero lo que sí sé es que nunca desistiré."
+            <cite>— Isaura</cite>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION: MENSAJE ESPECIAL ===== -->
+  <section class="mensaje section" id="mensaje">
+    <div class="mensaje-bg">
+      <div class="mensaje-glow glow-1"></div>
+      <div class="mensaje-glow glow-2"></div>
+    </div>
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">💜 Para ti</span>
+        <h2 class="section-title">Un mensaje desde el <span class="gradient-text">corazón</span></h2>
+      </div>
+      <div class="letter-container" data-aos="fade-up">
+        <div class="letter-paper">
+          <div class="letter-top-decoration">
+            <span>🌺</span><span>🌸</span><span>🌺</span>
+          </div>
+          <p class="letter-greeting">Querida Isaura,</p>
+          <div class="letter-body">
+            <p>
+              En este <strong>8 de Marzo</strong>, Día Internacional de la Mujer, quiero dedicarte unas palabras
+              que nacen con toda sinceridad.
+            </p>
+            <p>
+              Eres el tipo de persona que me inspira — alguien que estudió una carrera tan exigente como
+              la <em>Ingeniería Civil</em> con disciplina, sacrificio y pasión. Mientras otros dormían,
+              tú resolvías problemas. Mientras otros dudaban, tú construías.
+            </p>
+            <p>
+              Pero más allá del título y los planos, lo que más me llama la atención de ti es tu
+              <strong>determinación</strong>. Esa frase tuya — <em>"nunca desistiré"</em> — dice mucho
+              de quién eres en realidad: una mujer que no se rinde, que va por sus sueños sin pedir permiso.
+            </p>
+            <p>
+              Hoy el mundo celebra a las mujeres extraordinarias. Y tú, Isaura, eres definitivamente
+              una de ellas. Mereces todo lo bueno que la vida puede ofrecerte.
+            </p>
+            <p>
+              Que este día te recuerde cuánto vales, de dónde vienes, y todo lo lejos que vas a llegar. 🌟
+            </p>
+          </div>
+          <p class="letter-closing">Con admiración y afecto,</p>
+          <p class="letter-signature">Alguien que te está conociendo 🙂</p>
+          <div class="letter-bottom-decoration">
+            <span>✨</span><span>💜</span><span>✨</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION: GALERÍA DE FOTOS ===== -->
+  <section class="galeria section" id="galeria">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">📸 Recuerdos</span>
+        <h2 class="section-title">Momentos que <span class="gradient-text">brillan</span></h2>
+      </div>
+      <div class="gallery-grid" data-aos="fade-up">
+
+        <div class="gallery-item gallery-item--large" id="gal1">
+          <div class="gallery-placeholder">
+            <div class="gallery-icon">🎓</div>
+            <p>Graduación UPeU</p>
+            <span>El día que todos tus esfuerzos dieron fruto</span>
+          </div>
+          <div class="gallery-overlay">
+            <p>Una ingeniera nació 🎓</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="gal2">
+          <div class="gallery-placeholder">
+            <div class="gallery-icon">😊</div>
+            <p>Retrato</p>
+            <span>Tu sonrisa que ilumina</span>
+          </div>
+          <div class="gallery-overlay">
+            <p>Bella como siempre ✨</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="gal3">
+          <div class="gallery-placeholder">
+            <div class="gallery-icon">🌟</div>
+            <p>Sueños</p>
+            <span>"Nunca desistiré"</span>
+          </div>
+          <div class="gallery-overlay">
+            <p>Determinación pura 💪</p>
+          </div>
+        </div>
+
+        <div class="gallery-item" id="gal4">
+          <div class="gallery-placeholder">
+            <div class="gallery-icon">🏛️</div>
+            <p>Campus UPeU</p>
+            <span>Donde todo comenzó</span>
+          </div>
+          <div class="gallery-overlay">
+            <p>La universidad que te formó 🏛️</p>
+          </div>
+        </div>
+
+        <div class="gallery-item gallery-item--tall" id="gal5">
+          <div class="gallery-placeholder">
+            <div class="gallery-icon">💜</div>
+            <p>Isaura</p>
+            <span>Mujer extraordinaria</span>
+          </div>
+          <div class="gallery-overlay">
+            <p>Simplemente única 💜</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION: LOGROS / INGENIERÍA ===== -->
+  <section class="logros section" id="logros">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">🏗️ Tu pasión</span>
+        <h2 class="section-title">Lo que construye una <span class="gradient-text">ingeniera</span></h2>
+      </div>
+      <div class="pillars-grid">
+        <div class="pillar-card" data-aos="fade-up" data-delay="0">
+          <div class="pillar-icon">🌉</div>
+          <h3>Puentes</h3>
+          <p>Conecta mundos, une distancias. Como tú conectas personas con tu presencia.</p>
+        </div>
+        <div class="pillar-card" data-aos="fade-up" data-delay="100">
+          <div class="pillar-icon">🏗️</div>
+          <h3>Estructuras</h3>
+          <p>Diseña con precisión y arte. Cada cálculo, una obra maestra de dedicación.</p>
+        </div>
+        <div class="pillar-card" data-aos="fade-up" data-delay="200">
+          <div class="pillar-icon">🌊</div>
+          <h3>Hidráulica</h3>
+          <p>Como el agua, sabes encontrar tu camino ante cualquier obstáculo.</p>
+        </div>
+        <div class="pillar-card" data-aos="fade-up" data-delay="300">
+          <div class="pillar-icon">🏙️</div>
+          <h3>Urbanismo</h3>
+          <p>Sueña con ciudades mejores. Y con cada plano, lo hace realidad.</p>
+        </div>
+      </div>
+
+      <div class="blueprint-decoration" data-aos="zoom-in">
+        <div class="blueprint-inner">
+          <div class="blueprint-grid"></div>
+          <div class="blueprint-text">
+            <span class="bp-tag">// Proyecto: Isaura ✓</span>
+            <span class="bp-line">Cimientos: Perseverancia</span>
+            <span class="bp-line">Estructura: Valentía</span>
+            <span class="bp-line">Acabados: Amor propio</span>
+            <span class="bp-line">Estado: <em>Construyendo sueños...</em></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION: COUNTDOWN / CIERRE ===== -->
+  <section class="cierre section" id="cierre">
+    <div class="cierre-glow"></div>
+    <div class="container">
+      <div class="heart-animation" data-aos="zoom-in">
+        <div class="heart-pulse">
+          <svg class="heart-svg" viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M50 85 C50 85 10 55 10 28 C10 14 20 5 35 8 C42 10 48 16 50 20 C52 16 58 10 65 8 C80 5 90 14 90 28 C90 55 50 85 50 85Z" />
+          </svg>
+        </div>
+        <div class="heart-text">
+          <span class="ht-line1">Para ti, Isaura</span>
+          <span class="ht-line2">con admiración 💜</span>
+        </div>
+      </div>
+
+      <div class="final-message" data-aos="fade-up">
+        <h2 class="fm-title">¡Feliz Día de la Mujer! 🌺</h2>
+        <p class="fm-text">
+          Que este 8 de marzo te encuentre llena de orgullo por quien eres, por lo que has logrado
+          y por todo lo que aún vas a construir. Eres una mujer que merece ser celebrada — no solo hoy,
+          sino cada día del año.
+        </p>
+        <div class="fm-tags">
+          <span>#DíaDeLaMujer</span>
+          <span>#IngenieraCivil</span>
+          <span>#Isaura</span>
+          <span>#8DeMarzo</span>
+          <span>#MujerExtraordinaria</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>Hecho con 💜 para Isaura · 8 de Marzo 2026</p>
+  </footer>
+
+  <!-- ===== SCRIPTS ===== -->
+  <script src="app.js"></script>
+</body>
+
+</html>
